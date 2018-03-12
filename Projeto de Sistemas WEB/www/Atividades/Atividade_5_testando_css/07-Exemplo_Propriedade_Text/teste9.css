@@ -1,0 +1,12 @@
+body {
+    color: blue;
+}
+
+h1 {
+    color: green;
+    text-align: center;
+    text-decoration: overline;
+}
+p {
+	text-transform: lowercase;
+}
