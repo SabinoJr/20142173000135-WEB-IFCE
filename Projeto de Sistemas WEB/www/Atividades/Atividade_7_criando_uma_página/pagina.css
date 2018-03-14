@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilo do cabeçalho */
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: right;
+    font-size: 15px;
+}
+
+/* Crie três colunas iguais que flutuam ao lado do outro */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Flutuadores claros após as colunas */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* 
+Layout responsivo - faz as três colunas empilhar uma em cima da outra em vez de uma ao lado da outra */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+.button {
+    background-color: white;
+    color: black;
+    padding: 3px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin: 1px 5px;
+    cursor: pointer;
+    border-color: gray;
+    border-width: 1px;
+    font-family: Arial Rounded MT Bold;
+    width: 140px;
+
+}
+.img{
+
+}
