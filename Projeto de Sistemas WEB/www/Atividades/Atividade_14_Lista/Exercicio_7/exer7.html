@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tutorial de JavaScript</title>
+	<meta charset="utf-8">
+</head>
+<body>
+ 
+<p>Clique para exibir.</p>
+ 
+<button onclick="myFunction()">Clique aqui</button>
+ 
+<p id="demo"></p>
+<p id="demo1"></p>
+<p id="demo2"></p>
+
+<script>
+function myFunction() {
+var x;
+var y;
+var z;
+ 
+var numero=prompt("Digite um número entre 0 e 10:");
+ 
+if (numero > 0 < 10){
+	x="Numero: " + numero + " Insuficiente.";
+  document.getElementById("demo").innerHTML=x;
+  }
+
+var num=prompt("Digite um número entre 10 e 14:");
+ 
+if (num > 10 < 14){
+	y="Numero: " + num + " Bom.";
+  document.getElementById("demo1").innerHTML=y;
+  }
+ var numr=prompt("Digite um número maior 14:");
+ 
+if (numr > 14){
+	z="Numero: " + numr + " Muito Bom.";
+  document.getElementById("demo2").innerHTML=z;
+  }
+}
+
+</script>
+ 
+</body>
+</html>

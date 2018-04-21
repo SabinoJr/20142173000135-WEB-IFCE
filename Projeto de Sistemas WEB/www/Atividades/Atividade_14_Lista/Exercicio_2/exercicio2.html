@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<title>Tutorial de JavaScript</title>
+	<meta name="description" content="Onde inserir o código JavaScript no HTML">
+	<meta charset="utf-8">
+<body>
+
+<p>Adicionando um evento ao clicar no botão e gerando um número aleatório
+entre 0 e 50.</p>
+
+<button id="myBtn">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("myBtn").addEventListener("click", randow);
+
+function randow() {
+    document.getElementById("demo").innerHTML = Math.floor(Math.random() * 50);
+}
+</script>
+
+</body>
+</html> 

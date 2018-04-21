@@ -1,0 +1,8 @@
+function mostraMensagem()
+{
+	alert('AIA!');
+	
+}
+
+
+

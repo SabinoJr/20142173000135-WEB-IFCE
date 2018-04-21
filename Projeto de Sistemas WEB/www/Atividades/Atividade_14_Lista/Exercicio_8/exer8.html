@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tutorial em JavaScript</title>
+<meta charset="utf-8">
+</head>
+<body>
+ 
+<p>Clique para exibir.</p>
+ 
+<button onclick="myFunction()">Clique aqui</button>
+ 
+<p id="demo"></p>
+ <p id="demo1"></p>
+ <p id="demo2"></p>
+<script>
+function myFunction(){
+var x;
+var texto=prompt("Digite o texto 1:");
+ 
+	if (texto!=null){
+  		x="Texto: " + texto + " 1.";
+  	document.getElementById("demo").innerHTML=x;
+  }
+var y;
+var text=prompt("Digite o texto 2:");
+ 
+	if (text!=null){
+  		y="Texto: " + text + " 2.";
+  	document.getElementById("demo1").innerHTML=y;
+  }
+var z;
+var tex=prompt("Digite o texto 3:");
+ 
+	if (tex!=null){
+  		z="Texto: " + tex + " 3.";
+  	document.getElementById("demo2").innerHTML=z;
+  }
+}
+
+</script>
+ 
+</body>
+</html>

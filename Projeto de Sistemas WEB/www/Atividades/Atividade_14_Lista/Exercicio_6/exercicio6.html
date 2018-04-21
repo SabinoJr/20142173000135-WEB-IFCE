@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+    background-color: coral;
+    border: 1px solid;
+    padding: 50px;
+}
+</style>
+</head>
+<body>
+
+<p>Exemplo pratico de javascript quando se clica!</p>
+
+<div id="myDiv">
+  <p id="myP">Primeira Caixa.</p>
+</div><br>
+
+<div id="myDiv2">
+  <p id="myP2">Segunda Caixa.</p>
+</div>
+
+<script>
+
+document.getElementById("myDiv").addEventListener("click", function() {
+    alert("PRIMEIRA CAIXA ATIVADA!");
+}, true);
+
+document.getElementById("myDiv2").addEventListener("click", function() {
+    alert("PERDEU O FOCO!");
+}, false);
+
+
+
+</script>
+
+</body>
+</html>
