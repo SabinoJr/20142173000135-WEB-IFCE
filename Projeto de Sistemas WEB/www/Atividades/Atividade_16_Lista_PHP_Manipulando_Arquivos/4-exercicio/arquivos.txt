@@ -1,0 +1,3 @@
+Primeira frase do arquivo. 
+Segunda frase do arquivo. 
+Terceira frase do arquivo. 

@@ -14,7 +14,7 @@
 	
 	if ($media >= 7){
 		echo "Media igual a $media. Aluno APROVADO!";
-	}else if($media >= 4{
+	}else if($media >= 4){
 		echo "Media igual a $media. Aluno na FINAL.";
 	}else{
 		echo "Media igual a $media. Aluno REPROVADO!";
